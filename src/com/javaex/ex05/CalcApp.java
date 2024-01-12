@@ -9,8 +9,11 @@ public class CalcApp {
     	Scanner sc = new Scanner(System.in);
     	String numLine = sc.nextLine();
     	
+    	String[] sArray = numLine.split(" "); 
     	
-    	
+    	if(sArray[1].equals("+")) {
+    		
+    	}
     	
     	
     	
